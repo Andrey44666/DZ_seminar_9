@@ -15,12 +15,12 @@ int end = meaning_N;
 	if(meaning_M > meaning_N)
 	{
 		begin = meaning_N;
-    	end = meaning_M;
+		end = meaning_M;
 	}
 	for(int i = begin; i <= end; i++)
 	{
-		i = (end + begin)*(end - begin + 1)/2; 
-        System.Console.WriteLine(i);
+		i = (end + begin)*(end - begin + 1)/2;
+		System.Console.WriteLine(i);
 	}  
 }
 
