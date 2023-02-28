@@ -16,11 +16,11 @@ int AckermannFunction (int numberM, int numberN) // Dычисление функ
     }
     if (numberM != 0 && numberN == 0)
     {
-     return AckermannFunction(numberM - 1, 1);
+        return AckermannFunction(numberM - 1, 1);
     }
     if (numberM > 0 && numberN > 0) 
     {
-    return AckermannFunction(numberM - 1, AckermannFunction (numberM,numberN - 1));
+        return AckermannFunction(numberM - 1, AckermannFunction (numberM,numberN - 1));
     }
     return AckermannFunction(numberM, numberN);
 }
